@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Hello</title>
+  <style>
+    #container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item {
+      font-size: 3rem;
+      font-weight: 900;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 0.5rem;
+      color: white;
+      font-family: Helvetica, sans-serif;
+    }
+
+    body {
+      background: rgb(15 19 22);
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div class="item">Hello {{ name }}</div>
+  </div>
+</body>
+
+</html>
